@@ -5,15 +5,15 @@ This repository provides the source code for **uncertainty estimation in Graph N
 ## Datasets
 
 ### Static Graph Datasets
- **Cora** Downloadable from https://github.com/kimiyoung/planetoid/tree/master/data
+ **Cora:** Downloadable from https://github.com/kimiyoung/planetoid/tree/master/data
  
- **CiteSeer** Downloadable from https://github.com/kimiyoung/planetoid/tree/master/data
+ **CiteSeer:** Downloadable from https://github.com/kimiyoung/planetoid/tree/master/data
 
-   **Pubmed**  Downloadable from https://github.com/kimiyoung/planetoid/tree/master/data
+   **Pubmed:**  Downloadable from https://github.com/kimiyoung/planetoid/tree/master/data
 
-   **OGBN-Arxiv** Downloadable from https://ogb.stanford.edu/docs/nodeprop/
+   **OGBN-Arxiv:** Downloadable from https://ogb.stanford.edu/docs/nodeprop/
 
-  **Amazon-Computers** Downloadable from https://github.com/shchur/gnn-benchmark/
+  **Amazon-Computers:** Downloadable from https://github.com/shchur/gnn-benchmark/
   
 ### Dynamic Graph Datasets
 
@@ -28,7 +28,12 @@ This repository provides the source code for **uncertainty estimation in Graph N
   **Elliptic:** Downloadable from https://www.kaggle.com/ellipticco/elliptic-data-set 
 
   **Brain:** Downloadable from https://www.dropbox.com/sh/33p0gk4etgdjfvz/AACe2INXtp3N0u9xRdszq4vua?dl=0
+  
+## Code Usage
 
+For static graphs: python -u main.py  --use_bn --dataset --ood_type  --lr  --weight_decay --input_dropout --device 
+
+For dynamic graphs: python main_dgnn.py --config_file --OOD 
 
 ## References
 
