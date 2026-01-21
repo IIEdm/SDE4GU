@@ -5,29 +5,29 @@ This repository provides the source code for **uncertainty estimation in Graph N
 ## Datasets
 
 ### Static Graph Datasets
- **Cora**
+ **Cora** Downloadable from https://github.com/kimiyoung/planetoid/tree/master/data
  
- **CiteSeer**
+ **CiteSeer** Downloadable from https://github.com/kimiyoung/planetoid/tree/master/data
 
-   **Pubmed**
+   **Pubmed**  Downloadable from https://github.com/kimiyoung/planetoid/tree/master/data
 
-   **OGBN-Arxiv**
+   **OGBN-Arxiv** Downloadable from https://ogb.stanford.edu/docs/nodeprop/
 
-  **Amazon-Computers**
+  **Amazon-Computers** Downloadable from https://github.com/shchur/gnn-benchmark/
   
 ### Dynamic Graph Datasets
 
- **BC-OTC**
+ **BC-OTC:** Downloadable from http://snap.stanford.edu/data/soc-sign-bitcoin-otc.html
  
- **Reddit**
+ **Reddit:** Downloadable from http://snap.stanford.edu/data/soc-RedditHyperlinks.html
 
-   **UCI**
+   **UCI:** Downloadable from http://konect.uni-koblenz.de/networks/opsahl-ucsocial 
 
-   **AS**
+   **AS:** Downloadable from http://snap.stanford.edu/data/as-733.html
 
-  **Elliptic**
+  **Elliptic:** Downloadable from https://www.kaggle.com/ellipticco/elliptic-data-set 
 
-  **Brain**
+  **Brain:** Downloadable from https://www.dropbox.com/sh/33p0gk4etgdjfvz/AACe2INXtp3N0u9xRdszq4vua?dl=0
 
 
 ## References
